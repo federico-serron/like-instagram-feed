@@ -1,0 +1,73 @@
+body, html {
+    background-color: rgb(243, 230, 230);
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+.content{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+
+}
+
+.postcard{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: white;
+    border-radius: 1%;
+
+}
+
+.post-header{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.post-header > .post-title {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.post-header > .post-date{
+    color: gray;
+
+}
+
+.post-content{
+    margin: 0 auto;
+
+}
+
+.post-footer{
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+img {
+    width: 100%;
+}
+
+p{
+    font-size: small;
+}
